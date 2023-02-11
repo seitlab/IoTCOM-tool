@@ -1,0 +1,7 @@
+*.swp
+.java-version
+**/node_modules/
+**/out/
+**/.DS_Store
+**/bin/
+.metadata
