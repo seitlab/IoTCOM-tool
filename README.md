@@ -1,11 +1,11 @@
 
 # Overview
 
-In this repository you will find the protype code of IoTCOM, a model-checking tool to verify the safety of IoT Apps.
+IoTCOM is a verification tool to verify the security and safety of IoT apps and rules.
 
-This work is published at *ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'20)* and received **ACM SIGSOFT Distinguished Paper Award**. 
+This work is published at *IEEE Transactions on Software Engineering*. 
 
-Here you can find the [draft paper](https://drive.google.com/file/d/1DtnaSgLVQ81HhktsWCMpHMCVZ0nMQAnK/view?usp=sharing)
+Here you can find the [paper](https://cse.msu.edu/~qyan/paper/IoTCOM_TSE_2022.pdf)
 
 Here is the [project website](https://sites.google.com/view/iotcom/home)
 
@@ -60,10 +60,11 @@ The app was built using IntelliJ IDEA, but could also be imported into Eclipse u
 
 # Citation
 ```
-@INPROCEEDINGS{iotcom,
-    AUTHOR="M. Alhanahnah and C. Stevens and H. Bagheri",
-    TITLE="Scalable Analysis of Interaction Threats in IoT Systems",
-    BOOKTITLE="ISSTA 2020",
-    YEAR="2020",
+@article{alhanahnah2022iotcom,
+  title={IoTCOM: Dissecting Interaction Threats in IoT Systems},
+  author={Alhanahnah, Mohannad and Stevens, Clay and Chen, Bocheng and Yan, Qiben and Bagheri, Hamid},
+  journal={IEEE Transactions on Software Engineering},
+  year={2022},
+  publisher={IEEE}
 }
 ```
