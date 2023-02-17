@@ -39,8 +39,13 @@ public class ParseIFTTT {
 		ArrayList<JSONObject> json=new ArrayList<JSONObject>();
 		HashSet<String> lines = new HashSet<String>();
 	    JSONObject obj;
-	    String fileName = "/Users/think/Downloads/SmartThings/IFTTT/201705/smartThingRecipes.json";
-	    String onlyST = "/Users/think/Downloads/SmartThings/IFTTT/201705/onlyST.json";
+	// String fileName = "/Users/think/Downloads/SmartThings/IFTTT/201705/smartThingRecipes.json";
+	// String onlyST = "/Users/think/Downloads/SmartThings/IFTTT/201705/onlyST.json";
+	// String fileName = "/Users/think/Downloads/SmartThings/IFTTT/201705/smartThingRecipes.json";
+	// String onlyST = "/Users/think/Downloads/SmartThings/IFTTT/201705/onlyST.json";		
+	    String fileName = “~/SmartThings/IFTTT/201705/smartThingRecipes.json"; //TOFIX: assignment according to the file path
+	    String onlyST = “~/SmartThings/IFTTT/201705/onlyST.json"; //TOFIX: assignment according to the file path	
+	
 	    String line = null;
 
 	    try {
